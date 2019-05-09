@@ -27,7 +27,7 @@ prompt APPLICATION 24068 - Demo App
 -- Application Export:
 --   Application:     24068
 --   Name:            Demo App
---   Date and Time:   05:22 Thursday May 9, 2019
+--   Date and Time:   05:36 Thursday May 9, 2019
 --   Exported By:     MARAS-@GMX.DE
 --   Flashback:       0
 --   Export Type:     Application Export
@@ -118,7 +118,7 @@ wwv_flow_api.create_flow(
 ,p_substitution_string_01=>'APP_NAME'
 ,p_substitution_value_01=>'Demo App'
 ,p_last_updated_by=>'MARAS-@GMX.DE'
-,p_last_upd_yyyymmddhh24miss=>'20190509052208'
+,p_last_upd_yyyymmddhh24miss=>'20190509053420'
 ,p_file_prefix => nvl(wwv_flow_application_install.get_static_app_file_prefix,'')
 ,p_files_version=>3
 ,p_ui_type_name => null
@@ -19486,7 +19486,7 @@ wwv_flow_api.create_page(
 ,p_autocomplete_on_off=>'OFF'
 ,p_page_template_options=>'#DEFAULT#'
 ,p_last_updated_by=>'MARAS-@GMX.DE'
-,p_last_upd_yyyymmddhh24miss=>'20190407191159'
+,p_last_upd_yyyymmddhh24miss=>'20190509053200'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3705827053238548508)
@@ -21183,7 +21183,7 @@ wwv_flow_api.create_page_button(
 ,p_button_template_id=>wwv_flow_api.id(1650261044309977799)
 ,p_button_image_alt=>'Sample App'
 ,p_button_position=>'REGION_TEMPLATE_NEXT'
-,p_button_redirect_url=>'https://github.com/MarkoGranzin/ApexFlowChart/blob/master/SampleApp.sql'
+,p_button_redirect_url=>'https://github.com/MarkoGranzin/ApexSampleApp/blob/master/SampleApp.sql'
 );
 wwv_flow_api.create_page_button(
  p_id=>wwv_flow_api.id(3705829616444548534)
@@ -22988,7 +22988,7 @@ wwv_flow_api.create_page(
 ,p_autocomplete_on_off=>'OFF'
 ,p_page_template_options=>'#DEFAULT#'
 ,p_last_updated_by=>'MARAS-@GMX.DE'
-,p_last_upd_yyyymmddhh24miss=>'20190508171828'
+,p_last_upd_yyyymmddhh24miss=>'20190509053420'
 );
 wwv_flow_api.create_page_plug(
  p_id=>wwv_flow_api.id(3705830333842548541)
@@ -23067,7 +23067,7 @@ wwv_flow_api.create_page_button(
 ,p_button_template_id=>wwv_flow_api.id(1650261044309977799)
 ,p_button_image_alt=>'Sample App'
 ,p_button_position=>'REGION_TEMPLATE_NEXT'
-,p_button_redirect_url=>'https://github.com/MarkoGranzin/ApexFlowChart/blob/master/SampleApp.sql'
+,p_button_redirect_url=>'https://github.com/MarkoGranzin/ApexSampleApp/blob/master/SampleApp.sql'
 );
 wwv_flow_api.create_page_button(
  p_id=>wwv_flow_api.id(10197303855962219770)
